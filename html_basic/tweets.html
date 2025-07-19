@@ -6,21 +6,33 @@
     <title>Tweets Page</title>
 </head>
 <body>
-    <h1>My Tweets</h1>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
+    <main>
+        <article>
+            <h1>My Tweets</h1>
+            <p><a href="index.html">Back to Home</a></p>
 
-    <!-- Link back to homepage -->
-    <p><a href="index.html">Back to Home</a></p>
-
-    <!-- Embedded Tweet -->
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">
-            “Learning never exhausts the mind.” – Leonardo da Vinci <br>
-            Keep growing every day! 🌱
-        </p>
-        &mdash; Sample Tweet (<a href="https://twitter.com/TwitterDev/status/1545228125285201921">July 8, 2022</a>)
-    </blockquote>
-
-    <!-- Twitter script for embedding -->
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <!-- Embedded Tweet -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">
+                    “Learning never exhausts the mind.” – Leonardo da Vinci <br>
+                    Keep growing every day! 🌱
+                </p>
+                &mdash; Sample Tweet (<a href="https://twitter.com/TwitterDev/status/1545228125285201921">July 8, 2022</a>)
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </article>
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+    <footer>
+        <p>Made by Ahmed - <a href="https://github.com/ahmei1" target="_blank">here</a></p>
+    </footer>
 </body>
 </html>
